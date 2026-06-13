@@ -8,6 +8,7 @@ from pydantic import BaseModel, Field, field_validator, model_validator
 
 
 class ParserType(str, Enum):
+    generic = "generic"
     json_path = "json_path"
     html = "html"
     text = "text"
@@ -44,6 +45,7 @@ class SourceDefinition(BaseModel):
     request: RequestDefinition
     parser: ParserDefinition
     tags: list[str] = Field(default_factory=list)
+    deprecated: bool = False
 
 
 class SourceConfig(BaseModel):

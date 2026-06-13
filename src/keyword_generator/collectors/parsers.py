@@ -11,6 +11,36 @@ from bs4 import BeautifulSoup
 
 from ..models import ParserDefinition, ParserType
 
+_PREFERRED_KEYS = {
+    "phrase", "value", "word", "key", "name", "title", "trackName", "artistName",
+    "collectionName", "display_name", "label", "term", "query", "suggestion", "text",
+    "keyword", "display", "k",
+}
+
+
+def _generic_values(body: str) -> list[str]:
+    """Extract useful short strings from varied suggestion JSON/JSONP responses."""
+    match = re.search(r"^[\w.$]+\((.*)\)\s*;?$", body.strip(), re.S)
+    candidate = match.group(1) if match else body
+    try:
+        data = json.loads(candidate)
+    except json.JSONDecodeError:
+        return re.findall(r">([^<>]{2,180})<", body)
+    values: list[str] = []
+
+    def walk(item: Any, preferred: bool = False) -> None:
+        if isinstance(item, str) and preferred and len(item) <= 180:
+            values.append(item)
+        elif isinstance(item, list):
+            for child in item:
+                walk(child, True)
+        elif isinstance(item, dict):
+            for key, child in item.items():
+                walk(child, key in _PREFERRED_KEYS or isinstance(child, (list, dict)))
+
+    walk(data, True)
+    return values
+
 
 def _transform(value: str, transforms: list[str]) -> str:
     functions = {"strip": str.strip, "lower": str.lower, "html_unescape": html.unescape}
@@ -36,7 +66,9 @@ def _walk_json(value: Any, path: str) -> list[Any]:
 
 def parse_keywords(body: str, parser: ParserDefinition) -> list[str]:
     expression = parser.expression or ""
-    if parser.type == ParserType.json_path:
+    if parser.type == ParserType.generic:
+        values = _generic_values(body)
+    elif parser.type == ParserType.json_path:
         values = _walk_json(json.loads(body), expression)
     elif parser.type == ParserType.html:
         nodes = BeautifulSoup(body, "html.parser").select(expression)
