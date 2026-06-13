@@ -1,0 +1,15 @@
+version: 1
+sources:
+  - id: example-suggestions
+    name: Example Suggestions
+    enabled: true
+    request:
+      method: GET
+      url: https://api.example.com/suggest
+      query:
+        q: "{seed}"
+    parser:
+      type: json_path
+      expression: "$.suggestions[*].phrase"
+      transforms: [strip, html_unescape]
+    tags: [suggestions]

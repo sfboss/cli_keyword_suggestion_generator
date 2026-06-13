@@ -1,15 +1,26 @@
-# cli_keyword_suggestion_generator
+# Keyword Suggestion Generator
 
-Created on: 2026-06-13 00:19:58
+A deterministic, provenance-preserving keyword research CLI. The initial collector supports validated YAML/JSON GET-source definitions, stable request planning, secret-safe dry runs, concurrent collection with partial failures, source-specific JSON/HTML/text/CSV/regex parsing, normalization, exact deduplication, and CSV/JSON/JSONL export.
 
-## Description
+## Install
 
-Add your project description here.
+```bash
+python -m pip install -e '.[test]'
+```
 
-## Getting Started
+## Use
 
-Add setup and usage instructions here.
+```bash
+keywords config validate examples/sources.yaml
+keywords generate "running shoes" --source-config examples/sources.yaml --output keywords.jsonl
+keywords generate "running shoes" --source-config examples/sources.yaml --output unused.jsonl --dry-run
+```
 
-## Contributing
+Source definitions use `{seed}` and other context placeholders. Secrets use `{env:VARIABLE_NAME}` and are redacted from dry-run output. Only GET requests are supported in this first deterministic collector increment.
 
-Add contribution guidelines here.
+## Development
+
+```bash
+pytest
+ruff check .
+```
