@@ -1,0 +1,834 @@
+2026-06-13 04:16:11,716 INFO source_init source=google-current-firefox-config request=f58f305dceba98d8e6fc
+2026-06-13 04:16:13,436 INFO source_init source=bing-current-firefox-config request=1b81ce17f36981f96a6c
+2026-06-13 04:16:13,439 INFO source_init source=duckduckgo-current-firefox-config request=7351b1eff3bced4de3c2
+2026-06-13 04:16:13,456 INFO source_init source=startpage-osuggestions request=5acdbaee0f7fb46d1bdc
+2026-06-13 04:16:13,672 INFO source_init source=datamuse-sug request=e6ef12b3bba8b381853b
+2026-06-13 04:16:13,688 INFO source_init source=qwant-firefox-opensearch-suggest request=50753f9cfb85f40da959
+2026-06-13 04:16:13,691 INFO source_init source=baidu-opensearch-suggest request=63737c49dcaeafd15001
+2026-06-13 04:16:13,707 INFO source_init source=naver-opensearch-suggest request=b2d57fd8c8a28cb25a72
+2026-06-13 04:16:13,723 INFO source_init source=daum-opensearch-suggest request=5a0b3f8406a6d411db54
+2026-06-13 04:16:13,738 INFO source_init source=coccoc-autocomplete request=5ef0ba5fcce1a66c3432
+2026-06-13 04:16:15,995 INFO HTTP Request: GET https://www.google.com/complete/search?client=firefox&channel=fen&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:16,524 INFO source_success source=google-current-firefox-config status=200 results=11
+2026-06-13 04:16:16,547 INFO source_init source=1-1-suggest request=3196f974c3a92212d296
+2026-06-13 04:16:16,713 INFO HTTP Request: GET https://www.bing.com/osjson.aspx?query=coffee%20maker&form=OSDJAS "HTTP/1.1 200 OK"
+2026-06-13 04:16:17,347 INFO source_success source=bing-current-firefox-config status=200 results=16
+2026-06-13 04:16:17,398 INFO source_init source=web-de-suggest request=8ac8f0d1be05c6dd9719
+2026-06-13 04:16:19,700 INFO HTTP Request: GET https://api.datamuse.com/sug?s=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:19,734 INFO HTTP Request: GET https://ac.duckduckgo.com/ac/?q=coffee%20maker&type=list "HTTP/1.1 200 OK"
+2026-06-13 04:16:20,268 INFO source_success source=datamuse-sug status=200 results=7
+2026-06-13 04:16:20,302 INFO source_success source=duckduckgo-current-firefox-config status=200 results=9
+2026-06-13 04:16:20,321 INFO source_init source=mail-com-suggest request=bcaff7bd00a690b2a4a7
+2026-06-13 04:16:20,370 INFO source_init source=gmx-de-suggest request=6cf507c486c6eae92db5
+2026-06-13 04:16:20,418 INFO HTTP Request: GET https://www.startpage.com/osuggestions?q=coffee%20maker "HTTP/1.1 200 "
+2026-06-13 04:16:20,517 INFO HTTP Request: GET https://api.qwant.com/api/suggest/?client=opensearch&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:21,071 INFO source_success source=startpage-osuggestions status=200 results=3
+2026-06-13 04:16:21,923 INFO source_init source=google-firefox-json-legacy request=5db37dfdfd43e80fb4d1
+2026-06-13 04:16:22,003 INFO source_success source=qwant-firefox-opensearch-suggest status=200 results=8
+2026-06-13 04:16:22,573 INFO HTTP Request: GET https://coccoc.com/composer/autocomplete?of=b&s=ff&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:22,589 INFO HTTP Request: GET https://www.baidu.com/su?wd=coffee%20maker&ie=utf-8&action=opensearch "HTTP/1.1 200 OK"
+2026-06-13 04:16:22,623 INFO source_init source=google-chrome-json request=12d9e10b1f372f539d53
+2026-06-13 04:16:22,773 INFO source_success source=coccoc-autocomplete status=200 results=21
+2026-06-13 04:16:22,977 INFO source_success source=baidu-opensearch-suggest status=200 results=11
+2026-06-13 04:16:23,241 INFO source_init source=google-toolbar-xml request=cffab0d4f98798d8d2f4
+2026-06-13 04:16:23,608 INFO source_init source=google-chrome-omni request=7ad15757e83be6bb3835
+2026-06-13 04:16:23,628 INFO HTTP Request: GET https://ac.search.naver.com/nx/ac?of=os&ie=utf-8&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:23,724 INFO source_success source=naver-opensearch-suggest status=200 results=1
+2026-06-13 04:16:24,180 INFO source_init source=google-news request=405412d78e089fbb006b
+2026-06-13 04:16:25,178 INFO HTTP Request: GET https://suggestplugin.ui-portal.de/s?brand=1und1&origin=br_splugin_ff_sg&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:25,243 INFO HTTP Request: GET https://suggest.search.daum.net/sushi/opensearch/pc?DA=JU2&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:25,728 INFO source_success source=daum-opensearch-suggest status=200 results=7
+2026-06-13 04:16:26,397 INFO HTTP Request: GET https://suggestplugin.ui-portal.de/s?brand=webde&origin=br_splugin_ff_sg&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:26,613 INFO source_init source=google-shopping request=15a81b140316a5dd6674
+2026-06-13 04:16:27,382 INFO source_success source=1-1-suggest status=200 results=1
+2026-06-13 04:16:27,401 INFO source_success source=web-de-suggest status=200 results=1
+2026-06-13 04:16:27,435 INFO source_init source=google-images request=3a00cafd1a057233d3a6
+2026-06-13 04:16:27,582 INFO source_init source=bing-os-json-legacy-host request=3326cf283376260392fa
+2026-06-13 04:16:28,187 INFO HTTP Request: GET http://google.com/complete/search?output=toolbar&gl=US&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:28,472 INFO source_success source=google-toolbar-xml status=200 results=10
+2026-06-13 04:16:28,551 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:28,588 INFO HTTP Request: GET https://suggestplugin.ui-portal.de/s?brand=gmx&origin=br_splugin_ff_sg&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:28,604 INFO HTTP Request: GET https://search.mail.com/SuggestSearch/s?brand=mailcom&origin=br_splugin_ff_sg&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:28,651 INFO source_init source=bing-qsonhs-fragment request=eeb807883cb2d6559c3e
+2026-06-13 04:16:29,021 INFO source_success source=google-firefox-json-legacy status=200 results=11
+2026-06-13 04:16:29,052 INFO source_success source=gmx-de-suggest status=200 results=1
+2026-06-13 04:16:29,073 INFO source_success source=mail-com-suggest status=200 results=1
+2026-06-13 04:16:29,223 INFO source_init source=duckduckgo-original-host request=947ea622e0e18a3f8ba0
+2026-06-13 04:16:29,636 INFO source_init source=ecosia-autocomplete request=fa26e2838269fe344c1a
+2026-06-13 04:16:29,669 INFO source_init source=yahoo-gossip request=c28d1e7b96be576a23fd
+2026-06-13 04:16:30,155 INFO HTTP Request: GET https://www.google.com/complete/search?client=chrome&q=coffee%20maker&hl=en "HTTP/1.1 200 OK"
+2026-06-13 04:16:30,174 INFO HTTP Request: GET https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:30,472 INFO source_success source=google-chrome-json status=200 results=31
+2026-06-13 04:16:30,792 INFO source_init source=brave-legacy-unauth-endpoint request=086798290f61b85a0098
+2026-06-13 04:16:30,924 INFO source_success source=google-chrome-omni status=200 results=17
+2026-06-13 04:16:31,241 INFO source_init source=ask-com request=60c960ec07a835d11fd5
+2026-06-13 04:16:31,307 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&ds=n&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:31,557 INFO source_success source=google-news status=200 results=11
+2026-06-13 04:16:31,777 INFO source_init source=yandex request=1909750b7d417778e91d
+2026-06-13 04:16:32,380 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&ds=sh&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:32,728 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&ds=i&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:32,812 INFO source_success source=google-shopping status=200 results=11
+2026-06-13 04:16:33,126 INFO source_success source=google-images status=200 results=11
+2026-06-13 04:16:33,745 INFO source_init source=youtube-firefox request=6fcc1498416054715845
+2026-06-13 04:16:33,764 INFO source_init source=youtube-alternate request=63e53b27db2d3bf5d1eb
+2026-06-13 04:16:33,844 WARNING source_failure source=ask-com status=None deprecated=False error=[Errno 8] nodename nor servname provided, or not known
+2026-06-13 04:16:34,216 INFO source_init source=vimeo-public-video-search request=a1718d4b770919d64a8a
+2026-06-13 04:16:34,464 INFO HTTP Request: GET https://api.bing.com/osjson.aspx?query=coffee%20maker&language=en "HTTP/1.1 200 OK"
+2026-06-13 04:16:34,683 INFO source_success source=bing-os-json-legacy-host status=200 results=16
+2026-06-13 04:16:34,700 INFO HTTP Request: GET https://duckduckgo.com/ac/?q=coffee%20maker&type=list "HTTP/1.1 200 OK"
+2026-06-13 04:16:34,715 INFO source_init source=amazon-us-api-2017-all request=11d94c6866e27fe908fc
+2026-06-13 04:16:34,829 INFO source_success source=duckduckgo-original-host status=200 results=9
+2026-06-13 04:16:35,051 INFO source_init source=amazon-us-api-2017-computers request=538d0cc185ee06ae6d1f
+2026-06-13 04:16:35,097 INFO HTTP Request: GET https://www.bing.com/AS/Suggestions?pt=page.serp&mkt=en-us&qry=coffee%20maker&cp=1&cvid=1 "HTTP/1.1 200 OK"
+2026-06-13 04:16:35,115 INFO HTTP Request: GET https://search.yahoo.com/sugg/gossip/gossip-us-ura/?command=coffee%20maker&output=json&nresults=20 "HTTP/1.1 200 OK"
+2026-06-13 04:16:35,135 WARNING source_failure source=youtube-firefox status=None deprecated=False error=
+2026-06-13 04:16:35,314 INFO source_success source=bing-qsonhs-fragment status=200 results=36
+2026-06-13 04:16:35,564 INFO HTTP Request: GET https://ac.ecosia.org/autocomplete?type=list&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:35,614 INFO source_init source=amazon-us-api-2017-electronics request=4d553eb1cbec23be61d1
+2026-06-13 04:16:35,634 INFO source_init source=amazon-us-api-2017-books request=be700dd14d1356d94617
+2026-06-13 04:16:35,952 INFO source_success source=yahoo-gossip status=200 results=20
+2026-06-13 04:16:36,485 INFO HTTP Request: GET https://search.brave.com/api/suggest?q=coffee%20maker&rich=false&source=web "HTTP/1.1 200 OK"
+2026-06-13 04:16:36,533 INFO source_init source=amazon-us-api-2017-music request=5706926305ebbbd89d5f
+2026-06-13 04:16:37,637 INFO source_success source=brave-legacy-unauth-endpoint status=200 results=9
+2026-06-13 04:16:37,939 INFO source_success source=ecosia-autocomplete status=200 results=9
+2026-06-13 04:16:38,690 INFO source_init source=amazon-us-api-2017-software request=d4de6c9809c7be634274
+2026-06-13 04:16:38,722 INFO source_init source=amazon-legacy-us request=0960ddc8f1c8b20a7496
+2026-06-13 04:16:39,209 INFO HTTP Request: GET https://suggest.yandex.com/suggest-ff.cgi?part=coffee%20maker&uil=en&lr=0 "HTTP/1.1 200 Ok"
+2026-06-13 04:16:39,258 INFO source_success source=yandex status=200 results=11
+2026-06-13 04:16:39,308 INFO source_init source=amazon-uk-api-2017 request=fd04d5c3bd0057fd830a
+2026-06-13 04:16:39,707 INFO HTTP Request: GET https://suggestqueries-clients6.youtube.com/complete/search?client=youtube&ds=yt&q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:40,192 INFO source_success source=youtube-alternate status=200 results=15
+2026-06-13 04:16:40,210 INFO source_init source=amazon-de-api-2017 request=6e092faa34958624646c
+2026-06-13 04:16:40,459 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=aps&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:40,529 INFO HTTP Request: GET https://vimeo.com/api/v2/videos/search.json?query=coffee%20maker&per_page=10 "HTTP/1.1 404 Not Found"
+2026-06-13 04:16:40,574 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=computers&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:40,645 WARNING source_failure source=vimeo-public-video-search status=404 deprecated=False error=Client error '404 Not Found' for url 'https://vimeo.com/api/v2/videos/search.json?query=coffee%20maker&per_page=10'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:16:40,678 INFO source_success source=amazon-us-api-2017-computers status=200 results=1
+2026-06-13 04:16:40,774 INFO source_success source=amazon-us-api-2017-all status=200 results=10
+2026-06-13 04:16:41,076 INFO source_init source=ebay-autosuggest request=2941bef5e8489a4a4327
+2026-06-13 04:16:41,095 INFO source_init source=wikipedia-opensearch-en request=a7262d4e9036f18d0797
+2026-06-13 04:16:41,127 INFO HTTP Request: GET http://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=coffee%20maker "HTTP/1.1 301 Moved Permanently"
+2026-06-13 04:16:41,143 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=electronics&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:41,146 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=books&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:41,159 INFO source_init source=wikipedia-opensearch-lang-config request=0e69f29ac040e7863c18
+2026-06-13 04:16:41,509 INFO source_success source=amazon-us-api-2017-electronics status=200 results=1
+2026-06-13 04:16:41,664 INFO source_init source=wikipedia-opensearch-de request=16ecfa2fab2b9ec96b6e
+2026-06-13 04:16:41,713 INFO source_success source=amazon-us-api-2017-books status=200 results=0
+2026-06-13 04:16:41,729 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=music&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:41,746 INFO source_init source=wikipedia-opensearch-fr request=8fa46405b183e615c62f
+2026-06-13 04:16:42,110 INFO source_success source=amazon-us-api-2017-music status=200 results=0
+2026-06-13 04:16:42,380 INFO source_init source=wikipedia-opensearch-es request=e2292c898699d6f94d07
+2026-06-13 04:16:42,432 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=software&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:42,563 INFO source_success source=amazon-us-api-2017-software status=200 results=1
+2026-06-13 04:16:43,233 INFO source_init source=wikipedia-opensearch-ja request=51437a7bb16c52d645cf
+2026-06-13 04:16:43,317 INFO HTTP Request: GET https://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=coffee%20maker "HTTP/1.1 404 Not Found"
+2026-06-13 04:16:43,748 WARNING source_failure source=amazon-legacy-us status=404 deprecated=False error=Client error '404 Not Found' for url 'https://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=coffee%20maker'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:16:44,384 INFO source_init source=wiktionary-opensearch request=e7bbf8fa7d6818903e0f
+2026-06-13 04:16:45,219 INFO HTTP Request: GET https://completion.amazon.co.uk/api/2017/suggestions?mid=A1F83G8C2ARO7P&alias=aps&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:45,601 INFO source_success source=amazon-uk-api-2017 status=200 results=10
+2026-06-13 04:16:45,636 INFO source_init source=wikimedia-commons-opensearch request=a2c629cc7f935ac9c459
+2026-06-13 04:16:46,069 INFO HTTP Request: GET https://completion.amazon.de/api/2017/suggestions?mid=A1PA6795UKMFR9&alias=aps&prefix=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:46,369 INFO HTTP Request: GET https://en.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:46,502 INFO source_success source=amazon-de-api-2017 status=200 results=10
+2026-06-13 04:16:47,141 INFO HTTP Request: GET https://en.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&namespace=0&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:47,173 INFO HTTP Request: GET https://autosug.ebay.com/autosug?sId=0&kwd=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:16:47,174 INFO source_init source=nominatim-openstreetmap request=d19294778e7cb80bbcc1
+2026-06-13 04:16:47,357 WARNING source_failure source=wikipedia-opensearch-en status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&namespace=0&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:48,075 INFO source_init source=photon-komoot request=ca8782d3215999be6b89
+2026-06-13 04:16:48,293 INFO source_success source=ebay-autosuggest status=200 results=0
+2026-06-13 04:16:48,979 INFO HTTP Request: GET https://de.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:49,095 WARNING source_failure source=wikipedia-opensearch-lang-config status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:49,108 INFO source_init source=uk-government-search request=9802787da909b7df6c07
+2026-06-13 04:16:49,842 WARNING source_failure source=wikipedia-opensearch-de status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://de.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:49,860 INFO source_init source=musicbrainz-artist request=aa184012bca1f73e1e30
+2026-06-13 04:16:49,892 INFO source_init source=musicbrainz-release request=e0933a3cfed8665c6f1a
+2026-06-13 04:16:50,881 INFO HTTP Request: GET https://es.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:50,899 INFO HTTP Request: GET https://fr.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:51,195 WARNING source_failure source=wikipedia-opensearch-es status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://es.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:51,566 INFO source_init source=musicbrainz-recording request=1d3d5d470de715cf521e
+2026-06-13 04:16:51,617 WARNING source_failure source=wikipedia-opensearch-fr status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://fr.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:51,646 INFO source_init source=itunes-music-artists request=974119ed845d5efeab7b
+2026-06-13 04:16:51,815 INFO HTTP Request: GET https://en.wiktionary.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:51,848 INFO HTTP Request: GET https://ja.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:52,249 WARNING source_failure source=wiktionary-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wiktionary.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:52,567 INFO source_init source=itunes-software request=a639c60616bf7e8330ec
+2026-06-13 04:16:52,666 WARNING source_failure source=wikipedia-opensearch-ja status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://ja.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:52,683 INFO source_init source=itunes-movies request=aab7cebb7f1d645b325b
+2026-06-13 04:16:53,852 INFO HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:54,167 WARNING source_failure source=wikimedia-commons-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://commons.wikimedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:54,472 INFO source_init source=steam-suggest request=52c666905e1b09076d18
+2026-06-13 04:16:55,221 INFO HTTP Request: GET https://www.gov.uk/api/search.json?q=coffee%20maker&suggest=autocomplete&count=1 "HTTP/1.1 200 OK"
+2026-06-13 04:16:55,275 INFO HTTP Request: GET https://musicbrainz.org/ws/2/artist?query=coffee%20maker&fmt=json&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:16:55,386 INFO source_success source=uk-government-search status=200 results=8
+2026-06-13 04:16:56,292 INFO source_init source=pubmed-ncbi-esuggest request=ba62505721bc9a1a68ba
+2026-06-13 04:16:56,374 INFO source_success source=musicbrainz-artist status=200 results=22
+2026-06-13 04:16:56,389 INFO HTTP Request: GET https://musicbrainz.org/ws/2/recording?query=coffee%20maker&fmt=json&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:16:56,573 INFO source_init source=nasa-earthdata-cmr-autocomplete request=95b86380088b3c1cc075
+2026-06-13 04:16:57,178 INFO source_success source=musicbrainz-recording status=200 results=227
+2026-06-13 04:16:57,193 INFO HTTP Request: GET https://photon.komoot.io/api/?q=coffee%20maker&limit=10&lang=en "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:57,208 INFO HTTP Request: GET https://musicbrainz.org/ws/2/release?query=coffee%20maker&fmt=json&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:16:57,210 INFO HTTP Request: GET https://nominatim.openstreetmap.org/search?q=coffee%20maker&format=json&limit=10&addressdetails=1 "HTTP/1.1 403 Forbidden"
+2026-06-13 04:16:57,224 INFO HTTP Request: GET https://itunes.apple.com/search?term=coffee%20maker&limit=10&entity=musicArtist "HTTP/1.1 200 OK"
+2026-06-13 04:16:57,312 INFO source_init source=open-library-authors request=1bdaac94d3d800d512d1
+2026-06-13 04:16:57,942 WARNING source_failure source=photon-komoot status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://photon.komoot.io/api/?q=coffee%20maker&limit=10&lang=en'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:58,143 INFO source_success source=musicbrainz-release status=200 results=90
+2026-06-13 04:16:58,663 INFO source_success source=itunes-music-artists status=200 results=6
+2026-06-13 04:16:58,679 INFO source_init source=open-library-books request=ee8cfda8c7652dcbed5e
+2026-06-13 04:16:58,710 INFO source_init source=google-current-firefox-config request=5c5429d9515b501d912b
+2026-06-13 04:16:59,061 WARNING source_failure source=nominatim-openstreetmap status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://nominatim.openstreetmap.org/search?q=coffee%20maker&format=json&limit=10&addressdetails=1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:16:59,377 INFO source_init source=bing-current-firefox-config request=851c9c5eae22fe51c87e
+2026-06-13 04:16:59,412 INFO HTTP Request: GET https://itunes.apple.com/search?term=coffee%20maker&limit=10&entity=software "HTTP/1.1 200 OK"
+2026-06-13 04:16:59,431 INFO source_init source=duckduckgo-current-firefox-config request=1306d01d125ed6f27a9e
+2026-06-13 04:16:59,879 INFO source_success source=itunes-software status=200 results=1549
+2026-06-13 04:17:00,284 INFO source_init source=startpage-osuggestions request=c73e99fecbdfd05e7820
+2026-06-13 04:17:00,331 INFO HTTP Request: GET https://itunes.apple.com/search?term=coffee%20maker&limit=10&entity=movie "HTTP/1.1 200 OK"
+2026-06-13 04:17:00,412 INFO source_success source=itunes-movies status=200 results=0
+2026-06-13 04:17:01,418 INFO source_init source=datamuse-sug request=bf8d4719dcfb0637053f
+2026-06-13 04:17:01,852 INFO HTTP Request: GET https://store.steampowered.com/search/suggest?term=coffee%20maker&f=games&cc=US&l=english "HTTP/1.1 200 OK"
+2026-06-13 04:17:02,132 INFO source_success source=steam-suggest status=200 results=0
+2026-06-13 04:17:02,754 INFO source_init source=qwant-firefox-opensearch-suggest request=d02a0e2a324b5e851e8b
+2026-06-13 04:17:03,639 INFO HTTP Request: GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esuggest.fcgi?db=pubmed&q=coffee%20maker&retmode=json "HTTP/1.1 400 Bad Request"
+2026-06-13 04:17:03,955 INFO HTTP Request: GET https://ac.duckduckgo.com/ac/?q=espresso%20machine&type=list "HTTP/1.1 200 OK"
+2026-06-13 04:17:04,457 WARNING source_failure source=pubmed-ncbi-esuggest status=400 deprecated=False error=Client error '400 Bad Request' for url 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esuggest.fcgi?db=pubmed&q=coffee%20maker&retmode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-06-13 04:17:06,395 INFO HTTP Request: GET https://cmr.earthdata.nasa.gov/search/autocomplete?q=coffee%20maker "HTTP/1.1 200 OK"
+2026-06-13 04:17:06,411 INFO source_init source=baidu-opensearch-suggest request=4bc4a628749aaa1cce6a
+2026-06-13 04:17:06,959 INFO source_success source=nasa-earthdata-cmr-autocomplete status=200 results=0
+2026-06-13 04:17:07,644 INFO HTTP Request: GET https://www.google.com/complete/search?client=firefox&channel=fen&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:07,663 INFO HTTP Request: GET https://www.startpage.com/osuggestions?q=espresso%20machine "HTTP/1.1 200 "
+2026-06-13 04:17:07,665 INFO HTTP Request: GET https://openlibrary.org/search.json?q=coffee%20maker&limit=10&fields=title%2Cauthor_name "HTTP/1.1 200 OK"
+2026-06-13 04:17:07,678 INFO HTTP Request: GET https://openlibrary.org/search/authors.json?q=coffee%20maker&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:17:07,713 INFO source_success source=duckduckgo-current-firefox-config status=200 results=9
+2026-06-13 04:17:07,715 INFO source_init source=naver-opensearch-suggest request=5bff0ace5d54726ecffb
+2026-06-13 04:17:07,944 INFO source_success source=google-current-firefox-config status=200 results=11
+2026-06-13 04:17:08,278 INFO source_success source=startpage-osuggestions status=200 results=3
+2026-06-13 04:17:08,300 INFO source_success source=open-library-books status=200 results=22
+2026-06-13 04:17:08,332 INFO source_success source=open-library-authors status=200 results=0
+2026-06-13 04:17:08,347 INFO HTTP Request: GET https://www.bing.com/osjson.aspx?query=espresso%20machine&form=OSDJAS "HTTP/1.1 200 OK"
+2026-06-13 04:17:08,348 INFO source_init source=daum-opensearch-suggest request=392f217dc2ea5b913eb8
+2026-06-13 04:17:08,365 INFO source_init source=coccoc-autocomplete request=f2162346a67d416ac50e
+2026-06-13 04:17:08,496 INFO source_init source=1-1-suggest request=f088333df36c6f6f8221
+2026-06-13 04:17:08,864 INFO source_init source=web-de-suggest request=1d686bebf7dc98c41366
+2026-06-13 04:17:08,896 INFO source_init source=mail-com-suggest request=8545df813aed4dbcd618
+2026-06-13 04:17:08,934 INFO source_success source=bing-current-firefox-config status=200 results=19
+2026-06-13 04:17:08,965 INFO source_init source=gmx-de-suggest request=748d2d4d672667745a64
+2026-06-13 04:17:09,316 INFO HTTP Request: GET https://api.datamuse.com/sug?s=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:09,637 INFO source_success source=datamuse-sug status=200 results=0
+2026-06-13 04:17:09,653 INFO source_init source=google-firefox-json-legacy request=51a08d85787a6d90d886
+2026-06-13 04:17:09,717 INFO HTTP Request: GET https://api.qwant.com/api/suggest/?client=opensearch&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:10,049 INFO source_success source=qwant-firefox-opensearch-suggest status=200 results=8
+2026-06-13 04:17:11,002 INFO source_init source=google-chrome-json request=3e89a099fb68054e03cb
+2026-06-13 04:17:11,386 INFO HTTP Request: GET https://www.google.com/complete/search?client=chrome&q=espresso%20machine&hl=en "HTTP/1.1 200 OK"
+2026-06-13 04:17:11,668 INFO source_success source=google-chrome-json status=200 results=31
+2026-06-13 04:17:11,724 INFO source_init source=google-toolbar-xml request=ff371e55b03fcd64376e
+2026-06-13 04:17:12,358 INFO HTTP Request: GET https://search.mail.com/SuggestSearch/s?brand=mailcom&origin=br_splugin_ff_sg&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:12,405 INFO source_success source=mail-com-suggest status=200 results=3
+2026-06-13 04:17:12,406 INFO source_init source=google-chrome-omni request=e7b20e86823ada58298b
+2026-06-13 04:17:12,425 INFO HTTP Request: GET https://suggestplugin.ui-portal.de/s?brand=webde&origin=br_splugin_ff_sg&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:12,458 INFO source_success source=web-de-suggest status=200 results=1
+2026-06-13 04:17:12,487 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:12,553 INFO source_init source=google-news request=a1f3833fc3fa802b420b
+2026-06-13 04:17:13,071 INFO source_success source=google-firefox-json-legacy status=200 results=11
+2026-06-13 04:17:13,076 INFO source_init source=google-shopping request=cdc9c5ef4b869417919c
+2026-06-13 04:17:13,122 INFO HTTP Request: GET https://suggestplugin.ui-portal.de/s?brand=1und1&origin=br_splugin_ff_sg&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:13,172 INFO HTTP Request: GET https://suggestplugin.ui-portal.de/s?brand=gmx&origin=br_splugin_ff_sg&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:13,439 INFO source_success source=1-1-suggest status=200 results=1
+2026-06-13 04:17:13,727 INFO HTTP Request: GET https://ac.search.naver.com/nx/ac?of=os&ie=utf-8&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:13,757 INFO HTTP Request: GET https://www.baidu.com/su?wd=espresso%20machine&ie=utf-8&action=opensearch "HTTP/1.1 200 OK"
+2026-06-13 04:17:13,772 INFO source_init source=google-images request=fd1d99739e70f6446e79
+2026-06-13 04:17:13,826 INFO source_success source=naver-opensearch-suggest status=200 results=3
+2026-06-13 04:17:14,090 INFO source_success source=baidu-opensearch-suggest status=200 results=6
+2026-06-13 04:17:14,458 INFO HTTP Request: GET https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:14,490 INFO source_init source=bing-os-json-legacy-host request=1be808e50285ccb8644c
+2026-06-13 04:17:14,512 INFO source_init source=bing-qsonhs-fragment request=2b2f679ca817ea3fb7b7
+2026-06-13 04:17:14,561 INFO source_success source=google-chrome-omni status=200 results=17
+2026-06-13 04:17:14,575 INFO HTTP Request: GET https://suggest.search.daum.net/sushi/opensearch/pc?DA=JU2&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:14,740 INFO source_success source=gmx-de-suggest status=200 results=1
+2026-06-13 04:17:15,163 INFO source_init source=duckduckgo-original-host request=22c8f3dd94760ca1c071
+2026-06-13 04:17:15,243 INFO source_success source=daum-opensearch-suggest status=200 results=5
+2026-06-13 04:17:15,261 INFO HTTP Request: GET https://coccoc.com/composer/autocomplete?of=b&s=ff&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:15,263 INFO source_init source=ecosia-autocomplete request=91fb9a768c5ff6855083
+2026-06-13 04:17:15,477 INFO source_init source=yahoo-gossip request=52833870d6c53410af02
+2026-06-13 04:17:16,030 INFO source_success source=coccoc-autocomplete status=200 results=15
+2026-06-13 04:17:16,047 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&ds=sh&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:16,064 INFO source_init source=brave-legacy-unauth-endpoint request=25edbb5689501d5b3736
+2026-06-13 04:17:16,528 INFO source_success source=google-shopping status=200 results=11
+2026-06-13 04:17:17,263 INFO HTTP Request: GET http://google.com/complete/search?output=toolbar&gl=US&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:17,283 INFO source_init source=ask-com request=acf8a2d728021a2c32b6
+2026-06-13 04:17:17,782 INFO source_success source=google-toolbar-xml status=200 results=10
+2026-06-13 04:17:19,017 INFO source_init source=yandex request=be66aa4a259e64a0aba5
+2026-06-13 04:17:19,318 WARNING source_failure source=ask-com status=None deprecated=False error=[Errno 8] nodename nor servname provided, or not known
+2026-06-13 04:17:20,006 INFO source_init source=youtube-firefox request=e432034b5c919caf60ae
+2026-06-13 04:17:20,790 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=en&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:21,071 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&ds=n&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:21,405 INFO source_success source=google-news status=200 results=11
+2026-06-13 04:17:22,292 INFO source_success source=youtube-firefox status=200 results=11
+2026-06-13 04:17:22,306 INFO source_init source=youtube-alternate request=7810232f6297e07fae0e
+2026-06-13 04:17:22,328 INFO source_init source=vimeo-public-video-search request=a15f5c4d030781500fb2
+2026-06-13 04:17:23,023 INFO HTTP Request: GET https://suggestqueries.google.com/complete/search?client=firefox&ds=i&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:23,076 INFO source_success source=google-images status=200 results=11
+2026-06-13 04:17:23,159 INFO HTTP Request: GET https://search.yahoo.com/sugg/gossip/gossip-us-ura/?command=espresso%20machine&output=json&nresults=20 "HTTP/1.1 200 OK"
+2026-06-13 04:17:23,291 INFO source_init source=amazon-us-api-2017-all request=3a8daca14c48f0a3aa32
+2026-06-13 04:17:23,676 INFO source_success source=yahoo-gossip status=200 results=20
+2026-06-13 04:17:23,693 INFO HTTP Request: GET https://duckduckgo.com/ac/?q=espresso%20machine&type=list "HTTP/1.1 200 OK"
+2026-06-13 04:17:23,697 INFO HTTP Request: GET https://search.brave.com/api/suggest?q=espresso%20machine&rich=false&source=web "HTTP/1.1 200 OK"
+2026-06-13 04:17:23,712 INFO source_init source=amazon-us-api-2017-computers request=cbb13b6b60554b377191
+2026-06-13 04:17:23,845 INFO source_success source=duckduckgo-original-host status=200 results=9
+2026-06-13 04:17:24,444 INFO source_success source=brave-legacy-unauth-endpoint status=200 results=9
+2026-06-13 04:17:24,448 INFO HTTP Request: GET https://ac.ecosia.org/autocomplete?type=list&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:24,465 INFO HTTP Request: GET https://www.bing.com/AS/Suggestions?pt=page.serp&mkt=en-us&qry=espresso%20machine&cp=1&cvid=1 "HTTP/1.1 200 OK"
+2026-06-13 04:17:24,481 INFO source_init source=amazon-us-api-2017-electronics request=fc41425520f347e5f6ef
+2026-06-13 04:17:24,512 INFO source_init source=amazon-us-api-2017-books request=9a13c4855e672370e834
+2026-06-13 04:17:24,627 INFO source_success source=ecosia-autocomplete status=200 results=9
+2026-06-13 04:17:25,428 INFO source_success source=bing-qsonhs-fragment status=200 results=36
+2026-06-13 04:17:26,032 INFO source_init source=amazon-us-api-2017-music request=a147befeff0c6c7608f8
+2026-06-13 04:17:26,081 INFO source_init source=amazon-us-api-2017-software request=da78ef7a7cc59003b741
+2026-06-13 04:17:26,250 INFO HTTP Request: GET https://api.bing.com/osjson.aspx?query=espresso%20machine&language=en "HTTP/1.1 200 OK"
+2026-06-13 04:17:26,830 INFO source_success source=bing-os-json-legacy-host status=200 results=19
+2026-06-13 04:17:26,899 INFO source_init source=amazon-legacy-us request=f1589ab3134671cd68bb
+2026-06-13 04:17:27,485 INFO HTTP Request: GET https://suggest.yandex.com/suggest-ff.cgi?part=espresso%20machine&uil=en&lr=0 "HTTP/1.1 200 Ok"
+2026-06-13 04:17:27,820 INFO source_success source=yandex status=200 results=11
+2026-06-13 04:17:27,886 INFO source_init source=amazon-uk-api-2017 request=a26e05a7b55112216fd0
+2026-06-13 04:17:28,168 INFO HTTP Request: GET https://suggestqueries-clients6.youtube.com/complete/search?client=youtube&ds=yt&q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:28,601 INFO source_success source=youtube-alternate status=200 results=15
+2026-06-13 04:17:28,622 INFO source_init source=amazon-de-api-2017 request=ad552fd38d00f4b666c8
+2026-06-13 04:17:28,757 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=aps&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:29,036 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=computers&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:29,088 INFO HTTP Request: GET https://vimeo.com/api/v2/videos/search.json?query=espresso%20machine&per_page=10 "HTTP/1.1 404 Not Found"
+2026-06-13 04:17:29,424 INFO source_success source=amazon-us-api-2017-computers status=200 results=1
+2026-06-13 04:17:29,458 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=electronics&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:29,472 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=books&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:29,524 INFO source_success source=amazon-us-api-2017-all status=200 results=10
+2026-06-13 04:17:29,541 INFO source_init source=ebay-autosuggest request=81909195851225607d1c
+2026-06-13 04:17:29,887 WARNING source_failure source=vimeo-public-video-search status=404 deprecated=False error=Client error '404 Not Found' for url 'https://vimeo.com/api/v2/videos/search.json?query=espresso%20machine&per_page=10'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:17:30,338 INFO source_success source=amazon-us-api-2017-electronics status=200 results=1
+2026-06-13 04:17:30,357 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=software&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:30,359 INFO source_init source=wikipedia-opensearch-en request=591dc768bdaca3efa039
+2026-06-13 04:17:30,388 INFO source_init source=wikipedia-opensearch-lang-config request=1cb0e4ed471e5973fcbb
+2026-06-13 04:17:30,407 INFO source_init source=wikipedia-opensearch-de request=891f4f9e6b5c96dcc7a7
+2026-06-13 04:17:30,671 INFO source_success source=amazon-us-api-2017-books status=200 results=0
+2026-06-13 04:17:31,076 INFO source_success source=amazon-us-api-2017-software status=200 results=1
+2026-06-13 04:17:31,091 INFO HTTP Request: GET http://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=espresso%20machine "HTTP/1.1 301 Moved Permanently"
+2026-06-13 04:17:31,110 INFO HTTP Request: GET https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=music&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:31,125 INFO source_init source=wikipedia-opensearch-fr request=488b5709932fa27e0093
+2026-06-13 04:17:31,156 INFO source_init source=wikipedia-opensearch-es request=219abdac27b0212b243d
+2026-06-13 04:17:31,963 INFO source_success source=amazon-us-api-2017-music status=200 results=0
+2026-06-13 04:17:31,980 INFO source_init source=wikipedia-opensearch-ja request=dddd7f86e0d767c17ba4
+2026-06-13 04:17:32,730 INFO HTTP Request: GET https://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=espresso%20machine "HTTP/1.1 404 Not Found"
+2026-06-13 04:17:33,295 WARNING source_failure source=amazon-legacy-us status=404 deprecated=False error=Client error '404 Not Found' for url 'https://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=espresso%20machine'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:17:33,532 INFO source_init source=wiktionary-opensearch request=b3b41fd44189a5101ded
+2026-06-13 04:17:34,364 INFO HTTP Request: GET https://completion.amazon.co.uk/api/2017/suggestions?mid=A1F83G8C2ARO7P&alias=aps&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:34,445 INFO HTTP Request: GET https://completion.amazon.de/api/2017/suggestions?mid=A1PA6795UKMFR9&alias=aps&prefix=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:35,015 INFO source_success source=amazon-de-api-2017 status=200 results=10
+2026-06-13 04:17:35,035 INFO source_init source=wikimedia-commons-opensearch request=1244c84dc6e094b61edb
+2026-06-13 04:17:35,236 INFO HTTP Request: GET https://autosug.ebay.com/autosug?sId=0&kwd=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:17:35,265 INFO HTTP Request: GET https://en.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&namespace=0&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:35,299 INFO HTTP Request: GET https://en.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:35,336 INFO HTTP Request: GET https://de.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:35,515 INFO source_success source=amazon-uk-api-2017 status=200 results=10
+2026-06-13 04:17:36,702 WARNING source_failure source=wikipedia-opensearch-en status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&namespace=0&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:36,985 WARNING source_failure source=wikipedia-opensearch-lang-config status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:38,571 INFO HTTP Request: GET https://fr.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:38,573 INFO source_init source=nominatim-openstreetmap request=cc41702f706c07ea9fb8
+2026-06-13 04:17:38,660 INFO source_init source=photon-komoot request=c82a012cfa0a720461b7
+2026-06-13 04:17:38,856 INFO source_init source=uk-government-search request=44c73829266bb6b1f2ce
+2026-06-13 04:17:39,493 WARNING source_failure source=wikipedia-opensearch-fr status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://fr.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:39,525 INFO source_init source=musicbrainz-artist request=7cf5d141c178b2420d9b
+2026-06-13 04:17:39,623 INFO source_success source=ebay-autosuggest status=200 results=0
+2026-06-13 04:17:40,078 WARNING source_failure source=wikipedia-opensearch-de status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://de.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:40,091 INFO source_init source=musicbrainz-release request=9fa10e1f319f6d6c0be5
+2026-06-13 04:17:40,110 INFO source_init source=musicbrainz-recording request=79e67faa58c4002477cc
+2026-06-13 04:17:40,129 INFO HTTP Request: GET https://ja.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:40,143 INFO HTTP Request: GET https://es.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:40,290 WARNING source_failure source=wikipedia-opensearch-ja status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://ja.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:40,693 WARNING source_failure source=wikipedia-opensearch-es status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://es.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:40,714 INFO source_init source=itunes-music-artists request=d66d6564e45577659478
+2026-06-13 04:17:40,747 INFO source_init source=itunes-software request=0ac9dc01819cfd367a68
+2026-06-13 04:17:41,963 INFO HTTP Request: GET https://en.wiktionary.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:42,345 WARNING source_failure source=wiktionary-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wiktionary.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:43,101 INFO source_init source=itunes-movies request=02d49cb70ea3d0c0f4fc
+2026-06-13 04:17:43,299 INFO HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:43,835 WARNING source_failure source=wikimedia-commons-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://commons.wikimedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:45,451 INFO source_init source=steam-suggest request=e52580df705c22d776d6
+2026-06-13 04:17:45,741 INFO HTTP Request: GET https://nominatim.openstreetmap.org/search?q=espresso%20machine&format=json&limit=10&addressdetails=1 "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:46,289 INFO HTTP Request: GET https://musicbrainz.org/ws/2/artist?query=espresso%20machine&fmt=json&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:17:46,553 WARNING source_failure source=nominatim-openstreetmap status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://nominatim.openstreetmap.org/search?q=espresso%20machine&format=json&limit=10&addressdetails=1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:48,312 INFO source_init source=pubmed-ncbi-esuggest request=9499c589c7722d98d144
+2026-06-13 04:17:48,930 INFO source_success source=musicbrainz-artist status=200 results=544
+2026-06-13 04:17:50,934 INFO HTTP Request: GET https://musicbrainz.org/ws/2/recording?query=espresso%20machine&fmt=json&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:17:50,952 INFO HTTP Request: GET https://www.gov.uk/api/search.json?q=espresso%20machine&suggest=autocomplete&count=1 "HTTP/1.1 200 OK"
+2026-06-13 04:17:51,000 INFO HTTP Request: GET https://musicbrainz.org/ws/2/release?query=espresso%20machine&fmt=json&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:17:51,014 INFO HTTP Request: GET https://photon.komoot.io/api/?q=espresso%20machine&limit=10&lang=en "HTTP/1.1 403 Forbidden"
+2026-06-13 04:17:51,084 INFO source_init source=nasa-earthdata-cmr-autocomplete request=2657ab20b2dd8f6c2b05
+2026-06-13 04:17:53,252 INFO source_success source=musicbrainz-recording status=200 results=795
+2026-06-13 04:17:54,838 INFO source_success source=musicbrainz-release status=200 results=71
+2026-06-13 04:17:55,509 WARNING source_failure source=photon-komoot status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://photon.komoot.io/api/?q=espresso%20machine&limit=10&lang=en'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:17:55,543 INFO source_init source=open-library-authors request=20f05fee55cb958f9466
+2026-06-13 04:17:55,790 INFO source_success source=uk-government-search status=200 results=12
+2026-06-13 04:17:56,341 INFO source_init source=open-library-books request=607b4260147974fbf879
+2026-06-13 04:17:56,362 INFO HTTP Request: GET https://itunes.apple.com/search?term=espresso%20machine&limit=10&entity=software "HTTP/1.1 200 OK"
+2026-06-13 04:17:56,641 INFO source_success source=itunes-software status=200 results=1247
+2026-06-13 04:17:57,160 INFO HTTP Request: GET https://itunes.apple.com/search?term=espresso%20machine&limit=10&entity=musicArtist "HTTP/1.1 200 OK"
+2026-06-13 04:17:57,210 INFO source_success source=itunes-music-artists status=200 results=1
+2026-06-13 04:17:57,545 INFO HTTP Request: GET https://itunes.apple.com/search?term=espresso%20machine&limit=10&entity=movie "HTTP/1.1 200 OK"
+2026-06-13 04:17:57,946 INFO source_success source=itunes-movies status=200 results=0
+2026-06-13 04:17:58,097 INFO HTTP Request: GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esuggest.fcgi?db=pubmed&q=espresso%20machine&retmode=json "HTTP/1.1 400 Bad Request"
+2026-06-13 04:17:58,316 INFO HTTP Request: GET https://store.steampowered.com/search/suggest?term=espresso%20machine&f=games&cc=US&l=english "HTTP/1.1 200 OK"
+2026-06-13 04:17:58,697 WARNING source_failure source=pubmed-ncbi-esuggest status=400 deprecated=False error=Client error '400 Bad Request' for url 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esuggest.fcgi?db=pubmed&q=espresso%20machine&retmode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-06-13 04:17:59,933 INFO source_success source=steam-suggest status=200 results=0
+2026-06-13 04:17:59,986 INFO HTTP Request: GET https://cmr.earthdata.nasa.gov/search/autocomplete?q=espresso%20machine "HTTP/1.1 200 OK"
+2026-06-13 04:18:00,618 INFO source_success source=nasa-earthdata-cmr-autocomplete status=200 results=1
+2026-06-13 04:18:02,002 INFO HTTP Request: GET https://openlibrary.org/search/authors.json?q=espresso%20machine&limit=10 "HTTP/1.1 200 OK"
+2026-06-13 04:18:02,036 INFO HTTP Request: GET https://openlibrary.org/search.json?q=espresso%20machine&limit=10&fields=title%2Cauthor_name "HTTP/1.1 200 OK"
+2026-06-13 04:18:02,255 INFO source_success source=open-library-books status=200 results=21
+2026-06-13 04:18:02,288 INFO source_success source=open-library-authors status=200 results=0
+2026-06-13 04:30:08,619 INFO run_start seeds=2 planned_requests=128 source_config=examples/notebook-sources.yaml output=coffee-maker-espresso-machine-keywords.csv
+2026-06-13 04:30:13,062 INFO source_init source=google-current-firefox-config request=f58f305dceba98d8e6fc
+2026-06-13 04:30:13,431 INFO source_init source=bing-current-firefox-config request=1b81ce17f36981f96a6c
+2026-06-13 04:30:13,446 INFO source_init source=duckduckgo-current-firefox-config request=7351b1eff3bced4de3c2
+2026-06-13 04:30:13,544 INFO source_init source=startpage-osuggestions request=5acdbaee0f7fb46d1bdc
+2026-06-13 04:30:13,549 INFO source_init source=datamuse-sug request=e6ef12b3bba8b381853b
+2026-06-13 04:30:13,580 INFO source_init source=qwant-firefox-opensearch-suggest request=50753f9cfb85f40da959
+2026-06-13 04:30:13,596 INFO source_init source=baidu-opensearch-suggest request=63737c49dcaeafd15001
+2026-06-13 04:30:13,611 INFO source_init source=naver-opensearch-suggest request=b2d57fd8c8a28cb25a72
+2026-06-13 04:30:13,615 INFO source_init source=daum-opensearch-suggest request=5a0b3f8406a6d411db54
+2026-06-13 04:30:13,629 INFO source_init source=coccoc-autocomplete request=5ef0ba5fcce1a66c3432
+2026-06-13 04:30:14,899 INFO source_success source=datamuse-sug status=200 results=7
+2026-06-13 04:30:15,100 INFO source_success source=startpage-osuggestions status=200 results=3
+2026-06-13 04:30:15,450 INFO source_init source=1-1-suggest request=3196f974c3a92212d296
+2026-06-13 04:30:15,515 INFO source_init source=web-de-suggest request=8ac8f0d1be05c6dd9719
+2026-06-13 04:30:16,185 INFO source_success source=google-current-firefox-config status=200 results=11
+2026-06-13 04:30:16,267 INFO source_success source=duckduckgo-current-firefox-config status=200 results=9
+2026-06-13 04:30:16,319 INFO source_init source=mail-com-suggest request=bcaff7bd00a690b2a4a7
+2026-06-13 04:30:16,366 INFO source_init source=gmx-de-suggest request=6cf507c486c6eae92db5
+2026-06-13 04:30:16,569 INFO source_success source=bing-current-firefox-config status=200 results=16
+2026-06-13 04:30:16,619 INFO source_init source=google-firefox-json-legacy request=5db37dfdfd43e80fb4d1
+2026-06-13 04:30:17,070 INFO source_success source=qwant-firefox-opensearch-suggest status=200 results=8
+2026-06-13 04:30:17,073 INFO source_init source=google-chrome-json request=12d9e10b1f372f539d53
+2026-06-13 04:30:17,654 INFO source_success source=google-chrome-json status=200 results=31
+2026-06-13 04:30:17,657 INFO source_init source=google-toolbar-xml request=cffab0d4f98798d8d2f4
+2026-06-13 04:30:18,022 INFO source_success source=naver-opensearch-suggest status=200 results=1
+2026-06-13 04:30:18,190 INFO source_init source=google-chrome-omni request=7ad15757e83be6bb3835
+2026-06-13 04:30:18,627 INFO source_success source=1-1-suggest status=200 results=1
+2026-06-13 04:30:18,639 INFO source_init source=google-news request=405412d78e089fbb006b
+2026-06-13 04:30:18,942 INFO source_success source=google-firefox-json-legacy status=200 results=11
+2026-06-13 04:30:19,292 INFO source_success source=google-chrome-omni status=200 results=17
+2026-06-13 04:30:19,378 INFO source_init source=google-shopping request=15a81b140316a5dd6674
+2026-06-13 04:30:19,428 INFO source_init source=google-images request=3a00cafd1a057233d3a6
+2026-06-13 04:30:19,760 INFO source_success source=daum-opensearch-suggest status=200 results=7
+2026-06-13 04:30:19,825 INFO source_success source=web-de-suggest status=200 results=1
+2026-06-13 04:30:20,113 INFO source_init source=bing-os-json-legacy-host request=3326cf283376260392fa
+2026-06-13 04:30:20,145 INFO source_init source=bing-qsonhs-fragment request=eeb807883cb2d6559c3e
+2026-06-13 04:30:20,241 INFO source_success source=gmx-de-suggest status=200 results=1
+2026-06-13 04:30:20,462 INFO source_success source=baidu-opensearch-suggest status=200 results=11
+2026-06-13 04:30:20,509 INFO source_success source=mail-com-suggest status=200 results=1
+2026-06-13 04:30:20,594 INFO source_success source=coccoc-autocomplete status=200 results=21
+2026-06-13 04:30:21,114 INFO source_init source=duckduckgo-original-host request=947ea622e0e18a3f8ba0
+2026-06-13 04:30:21,161 INFO source_init source=ecosia-autocomplete request=fa26e2838269fe344c1a
+2026-06-13 04:30:21,182 INFO source_init source=yahoo-gossip request=c28d1e7b96be576a23fd
+2026-06-13 04:30:21,214 INFO source_init source=brave-legacy-unauth-endpoint request=086798290f61b85a0098
+2026-06-13 04:30:21,697 INFO source_success source=google-toolbar-xml status=200 results=10
+2026-06-13 04:30:21,730 INFO source_init source=ask-com request=60c960ec07a835d11fd5
+2026-06-13 04:30:21,996 INFO source_success source=google-shopping status=200 results=11
+2026-06-13 04:30:22,179 INFO source_init source=yandex request=1909750b7d417778e91d
+2026-06-13 04:30:22,817 INFO source_success source=bing-qsonhs-fragment status=200 results=36
+2026-06-13 04:30:22,884 INFO source_init source=youtube-firefox request=6fcc1498416054715845
+2026-06-13 04:30:23,720 INFO source_success source=google-news status=200 results=11
+2026-06-13 04:30:23,838 INFO source_init source=youtube-alternate request=63e53b27db2d3bf5d1eb
+2026-06-13 04:30:24,450 INFO source_success source=youtube-firefox status=200 results=11
+2026-06-13 04:30:24,503 INFO source_init source=vimeo-public-video-search request=a1718d4b770919d64a8a
+2026-06-13 04:30:25,438 INFO source_success source=google-images status=200 results=11
+2026-06-13 04:30:25,707 INFO source_init source=amazon-us-api-2017-all request=11d94c6866e27fe908fc
+2026-06-13 04:30:26,092 INFO source_success source=brave-legacy-unauth-endpoint status=200 results=9
+2026-06-13 04:30:26,258 INFO source_success source=ecosia-autocomplete status=200 results=9
+2026-06-13 04:30:26,440 INFO source_success source=yahoo-gossip status=200 results=20
+2026-06-13 04:30:26,675 INFO source_init source=amazon-us-api-2017-computers request=538d0cc185ee06ae6d1f
+2026-06-13 04:30:26,777 INFO source_init source=amazon-us-api-2017-electronics request=4d553eb1cbec23be61d1
+2026-06-13 04:30:27,206 INFO source_success source=bing-os-json-legacy-host status=200 results=16
+2026-06-13 04:30:27,357 INFO source_success source=duckduckgo-original-host status=200 results=9
+2026-06-13 04:30:27,360 INFO source_init source=amazon-us-api-2017-books request=be700dd14d1356d94617
+2026-06-13 04:30:27,895 WARNING source_failure source=ask-com status=None deprecated=False error=[Errno 8] nodename nor servname provided, or not known
+2026-06-13 04:30:27,911 INFO source_init source=amazon-us-api-2017-music request=5706926305ebbbd89d5f
+2026-06-13 04:30:27,960 INFO source_init source=amazon-us-api-2017-software request=d4de6c9809c7be634274
+2026-06-13 04:30:28,162 INFO source_init source=amazon-legacy-us request=0960ddc8f1c8b20a7496
+2026-06-13 04:30:29,431 INFO source_success source=yandex status=200 results=11
+2026-06-13 04:30:29,462 INFO source_init source=amazon-uk-api-2017 request=fd04d5c3bd0057fd830a
+2026-06-13 04:30:29,565 INFO source_success source=youtube-alternate status=200 results=15
+2026-06-13 04:30:30,230 INFO source_init source=amazon-de-api-2017 request=6e092faa34958624646c
+2026-06-13 04:30:31,166 WARNING source_failure source=vimeo-public-video-search status=404 deprecated=False error=Client error '404 Not Found' for url 'https://vimeo.com/api/v2/videos/search.json?query=coffee%20maker&per_page=10'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:30:31,415 INFO source_init source=ebay-autosuggest request=2941bef5e8489a4a4327
+2026-06-13 04:30:33,236 INFO source_success source=amazon-us-api-2017-all status=200 results=10
+2026-06-13 04:30:33,502 INFO source_success source=amazon-us-api-2017-electronics status=200 results=1
+2026-06-13 04:30:33,876 INFO source_init source=wikipedia-opensearch-en request=a7262d4e9036f18d0797
+2026-06-13 04:30:33,938 INFO source_init source=wikipedia-opensearch-lang-config request=0e69f29ac040e7863c18
+2026-06-13 04:30:34,157 INFO source_success source=amazon-us-api-2017-computers status=200 results=1
+2026-06-13 04:30:34,427 INFO source_init source=wikipedia-opensearch-de request=16ecfa2fab2b9ec96b6e
+2026-06-13 04:30:34,893 INFO source_success source=amazon-us-api-2017-software status=200 results=1
+2026-06-13 04:30:35,211 INFO source_success source=amazon-us-api-2017-books status=200 results=0
+2026-06-13 04:30:35,308 INFO source_success source=amazon-us-api-2017-music status=200 results=0
+2026-06-13 04:30:35,612 INFO source_init source=wikipedia-opensearch-fr request=8fa46405b183e615c62f
+2026-06-13 04:30:35,644 INFO source_init source=wikipedia-opensearch-es request=e2292c898699d6f94d07
+2026-06-13 04:30:35,677 INFO source_init source=wikipedia-opensearch-ja request=51437a7bb16c52d645cf
+2026-06-13 04:30:35,992 WARNING source_failure source=amazon-legacy-us status=404 deprecated=False error=Client error '404 Not Found' for url 'https://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=coffee%20maker'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:30:36,011 INFO source_init source=wiktionary-opensearch request=e7bbf8fa7d6818903e0f
+2026-06-13 04:30:36,661 INFO source_success source=amazon-uk-api-2017 status=200 results=10
+2026-06-13 04:30:37,883 INFO source_init source=wikimedia-commons-opensearch request=a2c629cc7f935ac9c459
+2026-06-13 04:30:39,117 INFO source_success source=ebay-autosuggest status=200 results=0
+2026-06-13 04:30:39,451 INFO source_init source=nominatim-openstreetmap request=d19294778e7cb80bbcc1
+2026-06-13 04:30:41,374 WARNING source_failure source=wikipedia-opensearch-en status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&namespace=0&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:41,505 INFO source_success source=amazon-de-api-2017 status=200 results=10
+2026-06-13 04:30:41,738 WARNING source_failure source=wikipedia-opensearch-lang-config status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:41,906 INFO source_init source=photon-komoot request=ca8782d3215999be6b89
+2026-06-13 04:30:41,976 INFO source_init source=uk-government-search request=9802787da909b7df6c07
+2026-06-13 04:30:42,024 INFO source_init source=musicbrainz-artist request=aa184012bca1f73e1e30
+2026-06-13 04:30:42,426 WARNING source_failure source=wikipedia-opensearch-fr status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://fr.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:42,677 WARNING source_failure source=wikipedia-opensearch-es status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://es.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:42,957 WARNING source_failure source=wikipedia-opensearch-ja status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://ja.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:43,061 INFO source_init source=musicbrainz-release request=e0933a3cfed8665c6f1a
+2026-06-13 04:30:43,109 INFO source_init source=musicbrainz-recording request=1d3d5d470de715cf521e
+2026-06-13 04:30:43,174 INFO source_init source=itunes-music-artists request=974119ed845d5efeab7b
+2026-06-13 04:30:43,526 WARNING source_failure source=wikipedia-opensearch-de status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://de.wikipedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:43,575 INFO source_init source=itunes-software request=a639c60616bf7e8330ec
+2026-06-13 04:30:43,859 WARNING source_failure source=wiktionary-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wiktionary.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:44,112 INFO source_init source=itunes-movies request=aab7cebb7f1d645b325b
+2026-06-13 04:30:45,297 WARNING source_failure source=wikimedia-commons-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://commons.wikimedia.org/w/api.php?action=opensearch&search=coffee%20maker&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:45,546 INFO source_init source=steam-suggest request=52c666905e1b09076d18
+2026-06-13 04:30:45,969 INFO source_success source=uk-government-search status=200 results=8
+2026-06-13 04:30:46,133 INFO source_init source=pubmed-ncbi-esuggest request=ba62505721bc9a1a68ba
+2026-06-13 04:30:46,601 INFO source_success source=itunes-music-artists status=200 results=6
+2026-06-13 04:30:46,831 INFO source_init source=nasa-earthdata-cmr-autocomplete request=95b86380088b3c1cc075
+2026-06-13 04:30:48,040 INFO source_success source=musicbrainz-artist status=200 results=22
+2026-06-13 04:30:48,670 WARNING source_failure source=photon-komoot status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://photon.komoot.io/api/?q=coffee%20maker&limit=10&lang=en'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:48,970 INFO source_success source=musicbrainz-release status=200 results=90
+2026-06-13 04:30:49,405 INFO source_init source=open-library-authors request=1bdaac94d3d800d512d1
+2026-06-13 04:30:49,457 INFO source_init source=open-library-books request=ee8cfda8c7652dcbed5e
+2026-06-13 04:30:49,524 INFO source_init source=google-current-firefox-config request=5c5429d9515b501d912b
+2026-06-13 04:30:49,777 WARNING source_failure source=nominatim-openstreetmap status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://nominatim.openstreetmap.org/search?q=coffee%20maker&format=json&limit=10&addressdetails=1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:30:50,307 INFO source_init source=bing-current-firefox-config request=851c9c5eae22fe51c87e
+2026-06-13 04:30:50,612 INFO source_success source=itunes-movies status=200 results=0
+2026-06-13 04:30:50,741 INFO source_success source=musicbrainz-recording status=200 results=227
+2026-06-13 04:30:50,746 INFO source_init source=duckduckgo-current-firefox-config request=1306d01d125ed6f27a9e
+2026-06-13 04:30:51,380 INFO source_success source=itunes-software status=200 results=1549
+2026-06-13 04:30:51,563 INFO source_init source=startpage-osuggestions request=c73e99fecbdfd05e7820
+2026-06-13 04:30:51,643 INFO source_init source=datamuse-sug request=bf8d4719dcfb0637053f
+2026-06-13 04:30:52,277 INFO source_success source=steam-suggest status=200 results=0
+2026-06-13 04:30:52,298 INFO source_init source=qwant-firefox-opensearch-suggest request=d02a0e2a324b5e851e8b
+2026-06-13 04:30:52,917 INFO source_success source=nasa-earthdata-cmr-autocomplete status=200 results=0
+2026-06-13 04:30:53,065 INFO source_init source=baidu-opensearch-suggest request=4bc4a628749aaa1cce6a
+2026-06-13 04:30:53,131 WARNING source_failure source=pubmed-ncbi-esuggest status=400 deprecated=False error=Client error '400 Bad Request' for url 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esuggest.fcgi?db=pubmed&q=coffee%20maker&retmode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-06-13 04:30:53,147 INFO source_init source=naver-opensearch-suggest request=5bff0ace5d54726ecffb
+2026-06-13 04:30:53,380 INFO source_success source=google-current-firefox-config status=200 results=11
+2026-06-13 04:30:53,398 INFO source_init source=daum-opensearch-suggest request=392f217dc2ea5b913eb8
+2026-06-13 04:30:53,546 INFO source_success source=bing-current-firefox-config status=200 results=19
+2026-06-13 04:30:53,752 INFO source_init source=coccoc-autocomplete request=f2162346a67d416ac50e
+2026-06-13 04:30:54,202 INFO source_success source=duckduckgo-current-firefox-config status=200 results=9
+2026-06-13 04:30:54,232 INFO source_init source=1-1-suggest request=f088333df36c6f6f8221
+2026-06-13 04:30:54,549 INFO source_success source=startpage-osuggestions status=200 results=3
+2026-06-13 04:30:54,565 INFO source_init source=web-de-suggest request=1d686bebf7dc98c41366
+2026-06-13 04:30:54,631 INFO source_success source=datamuse-sug status=200 results=0
+2026-06-13 04:30:54,837 INFO source_init source=mail-com-suggest request=8545df813aed4dbcd618
+2026-06-13 04:30:55,286 INFO source_success source=qwant-firefox-opensearch-suggest status=200 results=8
+2026-06-13 04:30:55,302 INFO source_init source=gmx-de-suggest request=748d2d4d672667745a64
+2026-06-13 04:30:55,553 INFO source_success source=open-library-authors status=200 results=0
+2026-06-13 04:30:55,606 INFO source_init source=google-firefox-json-legacy request=51a08d85787a6d90d886
+2026-06-13 04:30:55,987 INFO source_success source=open-library-books status=200 results=22
+2026-06-13 04:30:56,006 INFO source_init source=google-chrome-json request=3e89a099fb68054e03cb
+2026-06-13 04:30:56,475 INFO source_success source=google-chrome-json status=200 results=31
+2026-06-13 04:30:56,520 INFO source_init source=google-toolbar-xml request=ff371e55b03fcd64376e
+2026-06-13 04:30:56,925 INFO source_success source=1-1-suggest status=200 results=1
+2026-06-13 04:30:57,171 INFO source_success source=web-de-suggest status=200 results=1
+2026-06-13 04:30:57,209 INFO source_success source=baidu-opensearch-suggest status=200 results=6
+2026-06-13 04:30:57,226 INFO source_init source=google-chrome-omni request=e7b20e86823ada58298b
+2026-06-13 04:30:57,254 INFO source_init source=google-news request=a1f3833fc3fa802b420b
+2026-06-13 04:30:57,475 INFO source_init source=google-shopping request=cdc9c5ef4b869417919c
+2026-06-13 04:30:57,943 INFO source_success source=daum-opensearch-suggest status=200 results=5
+2026-06-13 04:30:58,011 INFO source_success source=mail-com-suggest status=200 results=3
+2026-06-13 04:30:58,243 INFO source_success source=naver-opensearch-suggest status=200 results=3
+2026-06-13 04:30:58,490 INFO source_init source=google-images request=fd1d99739e70f6446e79
+2026-06-13 04:30:58,712 INFO source_init source=bing-os-json-legacy-host request=1be808e50285ccb8644c
+2026-06-13 04:30:58,811 INFO source_init source=bing-qsonhs-fragment request=2b2f679ca817ea3fb7b7
+2026-06-13 04:30:59,463 INFO source_success source=coccoc-autocomplete status=200 results=15
+2026-06-13 04:30:59,494 INFO source_init source=duckduckgo-original-host request=22c8f3dd94760ca1c071
+2026-06-13 04:30:59,993 INFO source_success source=google-chrome-omni status=200 results=17
+2026-06-13 04:31:00,229 INFO source_init source=ecosia-autocomplete request=91fb9a768c5ff6855083
+2026-06-13 04:31:00,329 INFO source_success source=google-firefox-json-legacy status=200 results=11
+2026-06-13 04:31:00,683 INFO source_init source=yahoo-gossip request=52833870d6c53410af02
+2026-06-13 04:31:01,031 INFO source_success source=gmx-de-suggest status=200 results=1
+2026-06-13 04:31:01,050 INFO source_init source=brave-legacy-unauth-endpoint request=25edbb5689501d5b3736
+2026-06-13 04:31:01,481 INFO source_success source=google-toolbar-xml status=200 results=10
+2026-06-13 04:31:01,681 INFO source_init source=ask-com request=acf8a2d728021a2c32b6
+2026-06-13 04:31:02,737 WARNING source_failure source=ask-com status=None deprecated=False error=[Errno 8] nodename nor servname provided, or not known
+2026-06-13 04:31:02,785 INFO source_init source=yandex request=be66aa4a259e64a0aba5
+2026-06-13 04:31:02,916 INFO source_success source=google-news status=200 results=11
+2026-06-13 04:31:03,137 INFO source_init source=youtube-firefox request=e432034b5c919caf60ae
+2026-06-13 04:31:03,283 INFO source_success source=google-shopping status=200 results=11
+2026-06-13 04:31:03,506 INFO source_init source=youtube-alternate request=7810232f6297e07fae0e
+2026-06-13 04:31:03,723 INFO source_success source=google-images status=200 results=11
+2026-06-13 04:31:03,784 INFO source_init source=vimeo-public-video-search request=a15f5c4d030781500fb2
+2026-06-13 04:31:04,103 INFO source_success source=bing-qsonhs-fragment status=200 results=36
+2026-06-13 04:31:04,272 INFO source_init source=amazon-us-api-2017-all request=3a8daca14c48f0a3aa32
+2026-06-13 04:31:04,907 INFO source_success source=duckduckgo-original-host status=200 results=9
+2026-06-13 04:31:05,610 INFO source_success source=bing-os-json-legacy-host status=200 results=19
+2026-06-13 04:31:05,976 INFO source_init source=amazon-us-api-2017-computers request=cbb13b6b60554b377191
+2026-06-13 04:31:06,275 INFO source_init source=amazon-us-api-2017-electronics request=fc41425520f347e5f6ef
+2026-06-13 04:31:06,844 INFO source_success source=youtube-firefox status=200 results=11
+2026-06-13 04:31:07,360 INFO source_init source=amazon-us-api-2017-books request=9a13c4855e672370e834
+2026-06-13 04:31:07,560 INFO source_success source=ecosia-autocomplete status=200 results=9
+2026-06-13 04:31:07,832 INFO source_init source=amazon-us-api-2017-music request=a147befeff0c6c7608f8
+2026-06-13 04:31:08,466 INFO source_success source=brave-legacy-unauth-endpoint status=200 results=9
+2026-06-13 04:31:08,550 INFO source_init source=amazon-us-api-2017-software request=da78ef7a7cc59003b741
+2026-06-13 04:31:08,631 INFO source_success source=yahoo-gossip status=200 results=20
+2026-06-13 04:31:08,815 INFO source_init source=amazon-legacy-us request=f1589ab3134671cd68bb
+2026-06-13 04:31:10,805 INFO source_success source=amazon-us-api-2017-all status=200 results=10
+2026-06-13 04:31:11,287 INFO source_init source=amazon-uk-api-2017 request=a26e05a7b55112216fd0
+2026-06-13 04:31:11,686 INFO source_success source=youtube-alternate status=200 results=15
+2026-06-13 04:31:12,006 INFO source_success source=yandex status=200 results=11
+2026-06-13 04:31:12,375 WARNING source_failure source=vimeo-public-video-search status=404 deprecated=False error=Client error '404 Not Found' for url 'https://vimeo.com/api/v2/videos/search.json?query=espresso%20machine&per_page=10'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:31:12,441 INFO source_init source=amazon-de-api-2017 request=ad552fd38d00f4b666c8
+2026-06-13 04:31:12,907 INFO source_success source=amazon-us-api-2017-computers status=200 results=1
+2026-06-13 04:31:12,909 INFO source_init source=ebay-autosuggest request=81909195851225607d1c
+2026-06-13 04:31:13,191 INFO source_init source=wikipedia-opensearch-en request=591dc768bdaca3efa039
+2026-06-13 04:31:13,406 INFO source_init source=wikipedia-opensearch-lang-config request=1cb0e4ed471e5973fcbb
+2026-06-13 04:31:14,027 INFO source_success source=amazon-us-api-2017-books status=200 results=0
+2026-06-13 04:31:14,142 INFO source_success source=amazon-us-api-2017-electronics status=200 results=1
+2026-06-13 04:31:14,376 INFO source_success source=amazon-us-api-2017-music status=200 results=0
+2026-06-13 04:31:14,392 INFO source_init source=wikipedia-opensearch-de request=891f4f9e6b5c96dcc7a7
+2026-06-13 04:31:14,427 INFO source_init source=wikipedia-opensearch-fr request=488b5709932fa27e0093
+2026-06-13 04:31:14,662 INFO source_init source=wikipedia-opensearch-es request=219abdac27b0212b243d
+2026-06-13 04:31:14,910 INFO source_success source=amazon-us-api-2017-software status=200 results=1
+2026-06-13 04:31:15,277 INFO source_init source=wikipedia-opensearch-ja request=dddd7f86e0d767c17ba4
+2026-06-13 04:31:16,446 WARNING source_failure source=amazon-legacy-us status=404 deprecated=False error=Client error '404 Not Found' for url 'https://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=espresso%20machine'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:31:16,482 INFO source_init source=wiktionary-opensearch request=b3b41fd44189a5101ded
+2026-06-13 04:31:17,432 WARNING source_failure source=wikipedia-opensearch-lang-config status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:17,765 INFO source_init source=wikimedia-commons-opensearch request=1244c84dc6e094b61edb
+2026-06-13 04:31:18,116 WARNING source_failure source=wikipedia-opensearch-en status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&namespace=0&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:18,503 INFO source_success source=amazon-de-api-2017 status=200 results=10
+2026-06-13 04:31:18,651 INFO source_success source=amazon-uk-api-2017 status=200 results=10
+2026-06-13 04:31:19,069 INFO source_init source=nominatim-openstreetmap request=cc41702f706c07ea9fb8
+2026-06-13 04:31:19,368 INFO source_init source=photon-komoot request=c82a012cfa0a720461b7
+2026-06-13 04:31:19,623 INFO source_init source=uk-government-search request=44c73829266bb6b1f2ce
+2026-06-13 04:31:19,707 INFO source_success source=ebay-autosuggest status=200 results=0
+2026-06-13 04:31:20,389 INFO source_init source=musicbrainz-artist request=7cf5d141c178b2420d9b
+2026-06-13 04:31:20,789 WARNING source_failure source=wikipedia-opensearch-es status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://es.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:21,274 WARNING source_failure source=wikipedia-opensearch-fr status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://fr.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:21,743 WARNING source_failure source=wikipedia-opensearch-de status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://de.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:21,793 INFO source_init source=musicbrainz-release request=9fa10e1f319f6d6c0be5
+2026-06-13 04:31:21,829 INFO source_init source=musicbrainz-recording request=79e67faa58c4002477cc
+2026-06-13 04:31:22,025 WARNING source_failure source=wikipedia-opensearch-ja status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://ja.wikipedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:22,212 INFO source_init source=itunes-music-artists request=d66d6564e45577659478
+2026-06-13 04:31:22,345 INFO source_init source=itunes-software request=0ac9dc01819cfd367a68
+2026-06-13 04:31:24,682 WARNING source_failure source=wiktionary-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wiktionary.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:25,369 INFO source_init source=itunes-movies request=02d49cb70ea3d0c0f4fc
+2026-06-13 04:31:26,069 WARNING source_failure source=wikimedia-commons-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://commons.wikimedia.org/w/api.php?action=opensearch&search=espresso%20machine&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:26,536 INFO source_init source=steam-suggest request=e52580df705c22d776d6
+2026-06-13 04:31:27,039 INFO source_success source=uk-government-search status=200 results=12
+2026-06-13 04:31:27,252 INFO source_init source=pubmed-ncbi-esuggest request=9499c589c7722d98d144
+2026-06-13 04:31:27,821 WARNING source_failure source=photon-komoot status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://photon.komoot.io/api/?q=espresso%20machine&limit=10&lang=en'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:28,091 INFO source_init source=nasa-earthdata-cmr-autocomplete request=2657ab20b2dd8f6c2b05
+2026-06-13 04:31:28,455 WARNING source_failure source=nominatim-openstreetmap status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://nominatim.openstreetmap.org/search?q=espresso%20machine&format=json&limit=10&addressdetails=1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:31:28,690 INFO source_success source=itunes-music-artists status=200 results=1
+2026-06-13 04:31:28,809 INFO source_init source=open-library-authors request=20f05fee55cb958f9466
+2026-06-13 04:31:29,074 INFO source_init source=open-library-books request=607b4260147974fbf879
+2026-06-13 04:31:29,207 INFO source_success source=musicbrainz-release status=200 results=71
+2026-06-13 04:31:29,759 INFO source_success source=musicbrainz-recording status=200 results=795
+2026-06-13 04:31:30,193 INFO source_success source=musicbrainz-artist status=200 results=544
+2026-06-13 04:31:31,045 INFO source_success source=itunes-software status=200 results=1247
+2026-06-13 04:31:31,750 INFO source_success source=itunes-movies status=200 results=0
+2026-06-13 04:31:32,430 WARNING source_failure source=pubmed-ncbi-esuggest status=400 deprecated=False error=Client error '400 Bad Request' for url 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esuggest.fcgi?db=pubmed&q=espresso%20machine&retmode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-06-13 04:31:32,781 INFO source_success source=steam-suggest status=200 results=0
+2026-06-13 04:31:32,966 INFO source_success source=nasa-earthdata-cmr-autocomplete status=200 results=1
+2026-06-13 04:31:33,435 INFO source_success source=open-library-books status=200 results=21
+2026-06-13 04:31:33,501 INFO source_success source=open-library-authors status=200 results=0
+2026-06-13 04:53:12,965 INFO run_start seeds=1 planned_requests=64 source_config=examples/notebook-sources.yaml output=coffee-maker-espresso-machine-keywords.csv
+2026-06-13 04:53:17,086 INFO source_init source=google-current-firefox-config request=f36c6c7ee14d9503174d
+2026-06-13 04:53:17,420 INFO source_init source=bing-current-firefox-config request=ddaaa43a14fbfe6ea4b0
+2026-06-13 04:53:17,540 INFO source_init source=duckduckgo-current-firefox-config request=45b237191d09e3b8ac4a
+2026-06-13 04:53:17,821 INFO source_init source=startpage-osuggestions request=fcceb4e451f0b9df9658
+2026-06-13 04:53:18,155 INFO source_init source=datamuse-sug request=d3e621897846b1cf9960
+2026-06-13 04:53:18,359 INFO source_init source=qwant-firefox-opensearch-suggest request=e4980d67a73ee016edbd
+2026-06-13 04:53:18,543 INFO source_init source=baidu-opensearch-suggest request=a3f6b1f083f06012ee48
+2026-06-13 04:53:18,974 INFO source_init source=naver-opensearch-suggest request=32bf4e52ae428c7279ef
+2026-06-13 04:53:19,393 INFO source_init source=daum-opensearch-suggest request=5f1b1fc5a1cc6f2beb28
+2026-06-13 04:53:19,610 INFO source_init source=coccoc-autocomplete request=90057f15b02c2b488ec3
+2026-06-13 04:53:20,980 INFO source_success source=google-current-firefox-config status=200 results=7
+2026-06-13 04:53:21,332 INFO source_init source=1-1-suggest request=c334c1f30704959f12c5
+2026-06-13 04:53:21,984 INFO source_success source=bing-current-firefox-config status=200 results=5
+2026-06-13 04:53:22,334 INFO source_init source=web-de-suggest request=68b7e3e548daaa323316
+2026-06-13 04:53:22,850 INFO source_success source=datamuse-sug status=200 results=1
+2026-06-13 04:53:23,251 INFO source_init source=mail-com-suggest request=740ffcc98f05a206b3a5
+2026-06-13 04:53:23,804 INFO source_success source=duckduckgo-current-firefox-config status=200 results=5
+2026-06-13 04:53:24,172 INFO source_success source=startpage-osuggestions status=200 results=1
+2026-06-13 04:53:24,485 INFO source_init source=gmx-de-suggest request=e9b4c1a005284025f6d3
+2026-06-13 04:53:24,738 INFO source_init source=google-firefox-json-legacy request=e6b8257db90d2f25843c
+2026-06-13 04:53:25,173 INFO source_success source=qwant-firefox-opensearch-suggest status=200 results=3
+2026-06-13 04:53:25,574 INFO source_init source=google-chrome-json request=736972323ae4ffe4313c
+2026-06-13 04:53:27,312 INFO source_success source=baidu-opensearch-suggest status=200 results=1
+2026-06-13 04:53:27,810 INFO source_success source=naver-opensearch-suggest status=200 results=1
+2026-06-13 04:53:28,412 INFO source_init source=google-toolbar-xml request=53c9b9a533b8c74d30b6
+2026-06-13 04:53:29,296 INFO source_init source=google-chrome-omni request=34e4cc99e67c7cce3871
+2026-06-13 04:53:30,449 INFO source_success source=coccoc-autocomplete status=200 results=0
+2026-06-13 04:53:31,652 INFO source_success source=daum-opensearch-suggest status=200 results=1
+2026-06-13 04:53:32,288 INFO source_init source=google-news request=5a065d0e10adb8898262
+2026-06-13 04:53:32,804 INFO source_success source=1-1-suggest status=200 results=1
+2026-06-13 04:53:33,241 INFO source_init source=google-shopping request=e3051c5236132936acd5
+2026-06-13 04:53:33,926 INFO source_init source=google-images request=291cdc5fa2e30686f38b
+2026-06-13 04:53:34,926 INFO source_success source=web-de-suggest status=200 results=1
+2026-06-13 04:53:35,362 INFO source_init source=bing-os-json-legacy-host request=4e731a6a0dff9e1db6fc
+2026-06-13 04:53:36,598 INFO source_success source=mail-com-suggest status=200 results=1
+2026-06-13 04:53:37,918 INFO source_init source=bing-qsonhs-fragment request=9682f5f4f85dd4b6191f
+2026-06-13 04:53:38,871 INFO source_success source=gmx-de-suggest status=200 results=1
+2026-06-13 04:53:39,235 INFO source_init source=duckduckgo-original-host request=ae6f0ff5d890e5a5b85a
+2026-06-13 04:53:39,973 INFO source_success source=google-firefox-json-legacy status=200 results=7
+2026-06-13 04:53:40,891 INFO source_init source=ecosia-autocomplete request=edaed83fee0a3045fff1
+2026-06-13 04:53:41,423 INFO source_success source=google-chrome-json status=200 results=13
+2026-06-13 04:53:41,860 INFO source_init source=yahoo-gossip request=34e95a4a0f2d19ea5223
+2026-06-13 04:53:42,963 INFO source_success source=google-toolbar-xml status=200 results=6
+2026-06-13 04:53:43,378 INFO source_init source=brave-legacy-unauth-endpoint request=af7f1126d4de9e676d80
+2026-06-13 04:53:44,148 INFO source_success source=google-chrome-omni status=200 results=13
+2026-06-13 04:53:45,619 INFO source_init source=ask-com request=3568c163f0678a6437e4
+2026-06-13 04:53:46,736 WARNING source_failure source=google-images status=None deprecated=False error=
+2026-06-13 04:53:47,801 WARNING source_failure source=google-news status=None deprecated=False error=
+2026-06-13 04:53:48,741 WARNING source_failure source=google-shopping status=None deprecated=False error=
+2026-06-13 04:53:48,991 INFO source_init source=yandex request=c0d48e0a5b3d86471130
+2026-06-13 04:53:49,325 INFO source_init source=youtube-firefox request=67af2b34a2e3703e5460
+2026-06-13 04:53:49,923 INFO source_init source=youtube-alternate request=e965e7ffa39ab8f9979b
+2026-06-13 04:53:50,275 WARNING source_failure source=ask-com status=None deprecated=False error=[Errno 8] nodename nor servname provided, or not known
+2026-06-13 04:53:50,643 INFO source_init source=vimeo-public-video-search request=dda3e05a40daec2bca3e
+2026-06-13 04:53:51,445 INFO source_success source=bing-qsonhs-fragment status=200 results=36
+2026-06-13 04:53:52,061 INFO source_init source=amazon-us-api-2017-all request=14fc50de64423375d61d
+2026-06-13 04:53:52,564 INFO source_success source=duckduckgo-original-host status=200 results=5
+2026-06-13 04:53:52,834 INFO source_init source=amazon-us-api-2017-computers request=b6ccdb0c645d9fa2ad30
+2026-06-13 04:53:53,269 INFO source_success source=bing-os-json-legacy-host status=200 results=5
+2026-06-13 04:53:53,550 INFO source_success source=ecosia-autocomplete status=200 results=5
+2026-06-13 04:53:53,817 INFO source_init source=amazon-us-api-2017-electronics request=8368fbfd1cf6d1c3383a
+2026-06-13 04:53:54,085 INFO source_init source=amazon-us-api-2017-books request=bb48d4a03f910185dc00
+2026-06-13 04:53:54,503 INFO source_success source=yahoo-gossip status=200 results=3
+2026-06-13 04:53:54,805 INFO source_init source=amazon-us-api-2017-music request=f8592f4e28887617a5e4
+2026-06-13 04:53:55,373 INFO source_success source=brave-legacy-unauth-endpoint status=200 results=9
+2026-06-13 04:53:55,723 INFO source_init source=amazon-us-api-2017-software request=530e61de859a18e44a34
+2026-06-13 04:53:56,908 INFO source_success source=youtube-firefox status=200 results=1
+2026-06-13 04:53:57,343 INFO source_success source=youtube-alternate status=200 results=1
+2026-06-13 04:53:57,659 INFO source_init source=amazon-legacy-us request=42f71a3e8a52853a592a
+2026-06-13 04:53:58,029 INFO source_init source=amazon-uk-api-2017 request=df1fbcade82b0df35276
+2026-06-13 04:53:58,528 WARNING source_failure source=vimeo-public-video-search status=404 deprecated=False error=Client error '404 Not Found' for url 'https://vimeo.com/api/v2/videos/search.json?query=7oh%20addiction&per_page=10'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:53:58,862 INFO source_init source=amazon-de-api-2017 request=878a696aa1fccf7576b1
+2026-06-13 04:53:59,479 INFO source_success source=amazon-us-api-2017-all status=200 results=0
+2026-06-13 04:53:59,863 INFO source_init source=ebay-autosuggest request=f3b88fec0e2fbaccecae
+2026-06-13 04:54:00,317 INFO source_success source=amazon-us-api-2017-computers status=200 results=0
+2026-06-13 04:54:00,783 INFO source_init source=wikipedia-opensearch-en request=34ced897d57d852187e5
+2026-06-13 04:54:01,267 INFO source_success source=yandex status=200 results=1
+2026-06-13 04:54:01,649 INFO source_init source=wikipedia-opensearch-lang-config request=a2327bc1eb05643be1a3
+2026-06-13 04:54:01,951 INFO source_success source=amazon-us-api-2017-books status=200 results=0
+2026-06-13 04:54:02,371 INFO source_init source=wikipedia-opensearch-de request=4e7ee0ff177a505fb82f
+2026-06-13 04:54:02,735 INFO source_success source=amazon-us-api-2017-electronics status=200 results=0
+2026-06-13 04:54:03,007 INFO source_init source=wikipedia-opensearch-fr request=97ad386215f685ef937d
+2026-06-13 04:54:03,537 INFO source_success source=amazon-us-api-2017-music status=200 results=0
+2026-06-13 04:54:03,741 INFO source_init source=wikipedia-opensearch-es request=2a1ff694cf289e6678e3
+2026-06-13 04:54:04,256 INFO source_success source=amazon-us-api-2017-software status=200 results=0
+2026-06-13 04:54:04,491 INFO source_init source=wikipedia-opensearch-ja request=64109e129b0cab35c9d4
+2026-06-13 04:54:04,940 INFO source_success source=amazon-uk-api-2017 status=200 results=0
+2026-06-13 04:54:05,175 INFO source_init source=wiktionary-opensearch request=5d4c81a30c343d75cc98
+2026-06-13 04:54:05,343 WARNING source_failure source=amazon-legacy-us status=404 deprecated=False error=Client error '404 Not Found' for url 'https://completion.amazon.com/search/complete?search-alias=aps&client=amazon-search-ui&mkt=1&q=7oh%20addiction'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-13 04:54:05,611 INFO source_init source=wikimedia-commons-opensearch request=b97293e0f7d5e69a22a4
+2026-06-13 04:54:06,014 INFO source_success source=ebay-autosuggest status=200 results=0
+2026-06-13 04:54:06,247 INFO source_init source=nominatim-openstreetmap request=8350a01a182579f06564
+2026-06-13 04:54:06,511 INFO source_success source=amazon-de-api-2017 status=200 results=0
+2026-06-13 04:54:06,731 WARNING source_failure source=wikipedia-opensearch-en status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&namespace=0&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:06,913 INFO source_init source=photon-komoot request=fcc45fff5c51759891b1
+2026-06-13 04:54:07,195 INFO source_init source=uk-government-search request=1e90c3364a9f1259e637
+2026-06-13 04:54:07,465 WARNING source_failure source=wikipedia-opensearch-de status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://de.wikipedia.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:07,750 INFO source_init source=musicbrainz-artist request=a223dbf393fe7bf4013c
+2026-06-13 04:54:08,215 WARNING source_failure source=wikipedia-opensearch-lang-config status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wikipedia.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:09,399 INFO source_init source=musicbrainz-release request=44e70e16cb0d8326a142
+2026-06-13 04:54:10,238 WARNING source_failure source=wikipedia-opensearch-fr status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://fr.wikipedia.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:10,735 INFO source_init source=musicbrainz-recording request=126d90ad9ff5d1a33dc6
+2026-06-13 04:54:12,290 WARNING source_failure source=wikipedia-opensearch-es status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://es.wikipedia.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:13,375 INFO source_init source=itunes-music-artists request=4fbcfbbac36d63c95caa
+2026-06-13 04:54:15,317 WARNING source_failure source=wikipedia-opensearch-ja status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://ja.wikipedia.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:15,847 INFO source_init source=itunes-software request=4a0865aa1de45cff7e17
+2026-06-13 04:54:16,484 WARNING source_failure source=wiktionary-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://en.wiktionary.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:16,868 INFO source_init source=itunes-movies request=faef0fc1d5ddc4142380
+2026-06-13 04:54:17,350 WARNING source_failure source=wikimedia-commons-opensearch status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://commons.wikimedia.org/w/api.php?action=opensearch&search=7oh%20addiction&limit=10&format=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:17,602 INFO source_init source=steam-suggest request=020c475af059d8245c4c
+2026-06-13 04:54:18,673 INFO source_success source=musicbrainz-artist status=200 results=45
+2026-06-13 04:54:19,421 INFO source_init source=pubmed-ncbi-esuggest request=3b8a4e134037db1ab8d1
+2026-06-13 04:54:19,691 WARNING source_failure source=nominatim-openstreetmap status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://nominatim.openstreetmap.org/search?q=7oh%20addiction&format=json&limit=10&addressdetails=1'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:20,074 INFO source_success source=uk-government-search status=200 results=60
+2026-06-13 04:54:20,305 INFO source_init source=nasa-earthdata-cmr-autocomplete request=b175c381ae3b688d8651
+2026-06-13 04:54:20,560 INFO source_init source=open-library-authors request=e14ef0f7b8ef4f07870b
+2026-06-13 04:54:20,907 WARNING source_failure source=photon-komoot status=403 deprecated=False error=Client error '403 Forbidden' for url 'https://photon.komoot.io/api/?q=7oh%20addiction&limit=10&lang=en'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-13 04:54:21,124 INFO source_init source=open-library-books request=c1f875f929a313ff7208
+2026-06-13 04:54:21,459 INFO source_success source=musicbrainz-release status=200 results=80
+2026-06-13 04:54:22,360 INFO source_success source=itunes-music-artists status=200 results=0
+2026-06-13 04:54:22,812 INFO source_success source=itunes-movies status=200 results=0
+2026-06-13 04:54:23,066 INFO source_success source=steam-suggest status=200 results=0
+2026-06-13 04:54:23,500 INFO source_success source=itunes-software status=200 results=1530
+2026-06-13 04:54:23,795 INFO source_success source=musicbrainz-recording status=200 results=148
+2026-06-13 04:54:24,015 INFO source_success source=nasa-earthdata-cmr-autocomplete status=200 results=0
+2026-06-13 04:54:24,333 WARNING source_failure source=pubmed-ncbi-esuggest status=400 deprecated=False error=Client error '400 Bad Request' for url 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esuggest.fcgi?db=pubmed&q=7oh%20addiction&retmode=json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-06-13 04:54:24,884 INFO source_success source=open-library-authors status=200 results=0
+2026-06-13 04:54:25,202 INFO source_success source=open-library-books status=200 results=5

@@ -11,6 +11,17 @@ _TEMPLATE = re.compile(r"\{([^{}]+)\}")
 _SECRET_HEADERS = {"authorization", "proxy-authorization", "x-api-key", "api-key"}
 
 
+def default_template_context(seed: str) -> dict[str, str]:
+    return {
+        "language": "en",
+        "lang": "en",
+        "country": "US",
+        "market": "en-us",
+        "cp": "1",
+        "query": seed,
+    }
+
+
 def resolve_template(value: str, context: Mapping[str, str]) -> str:
     def replace(match: re.Match[str]) -> str:
         key = match.group(1)

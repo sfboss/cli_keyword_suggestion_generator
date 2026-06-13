@@ -1,7 +1,9 @@
 import json
 
 import pytest
+from typer.testing import CliRunner
 
+from keyword_generator.cli import app
 from keyword_generator.collectors.parsers import parse_keywords
 from keyword_generator.collectors.request_builder import plan_request, sanitized_request
 from keyword_generator.models import ParserDefinition, ParserType, RawKeyword, SourceDefinition
@@ -34,3 +36,43 @@ def test_deduplication_unions_provenance():
 def test_invalid_transform_fails():
     with pytest.raises(ValueError, match="unsupported parser transform"):
         parse_keywords("value", ParserDefinition(type=ParserType.text, transforms=["eval"]))
+
+
+def test_cli_dry_run_resolves_default_template_context(tmp_path):
+    config_path = tmp_path / "sources.json"
+    config_path.write_text(
+        json.dumps(
+            {
+                "sources": [
+                    {
+                        "id": "suggest",
+                        "name": "Suggest",
+                        "request": {
+                            "url": "https://example.test/{market}",
+                            "query": {"q": "{query}", "language": "{language}"},
+                        },
+                        "parser": {"type": "generic"},
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    result = CliRunner().invoke(
+        app,
+        [
+            "generate",
+            "email marketing",
+            "--source-config",
+            str(config_path),
+            "--output",
+            str(tmp_path / "email-marketing-keywords.jsonl"),
+            "--dry-run",
+        ],
+    )
+
+    assert result.exit_code == 0
+    request = json.loads(result.stdout)["requests"][0]
+    assert request["url"] == "https://example.test/en-us"
+    assert request["query"] == {"q": "email marketing", "language": "en"}
