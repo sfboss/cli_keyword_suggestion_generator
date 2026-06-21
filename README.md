@@ -104,6 +104,8 @@ Color is automatic in a compatible terminal, respects `NO_COLOR`, and can be for
 `examples/sources.yaml` is a small source-configuration example that uses a placeholder
 `api.example.com` endpoint; use `examples/notebook-sources.yaml` for runnable collection examples.
 
+`docs/component-sources.md` tracks the active source-family inventory, includes a Mermaid component map, and lists the pending source/enricher components that still need adapters.
+
 ## Development
 
 ```bash
